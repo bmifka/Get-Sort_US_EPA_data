@@ -1,14 +1,14 @@
 #!/bin/bash
 #****************************************************************************
-# This script downloads the meteorological or air quality data files 		
-# from US-EPA site (https://aqs.epa.gov/aqsweb/airdata/download_files.html).
-# To download files edit the SET YEARS, LINKS & OUTPUT COLUMNS section
+# This script downloads the meteorological or air quality data files 	    *
+# from US-EPA site (https://aqs.epa.gov/aqsweb/airdata/download_files.html).*
+# To download files edit the SET YEARS, LINKS & OUTPUT COLUMNS section      *
 #****************************************************************************
 # @author: boris mifka (boris.mifka@phy.uniri.hr)
 #
 
 #****************************************************************************
-#					SET YEARS, LINKS & OUTPUT COLUMNS:								*
+#			SET YEARS, LINKS & OUTPUT COLUMNS:                  *
 #****************************************************************************
 
 # SET the start and end YEARS and INCREMENT
