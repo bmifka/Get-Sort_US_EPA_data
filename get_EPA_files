@@ -1,0 +1,102 @@
+#!/bin/bash
+#****************************************************************************
+# This script downloads the meteorological or air quality data files 		
+# from US-EPA site (https://aqs.epa.gov/aqsweb/airdata/download_files.html).
+# To download files edit the SET YEARS, LINKS & OUTPUT COLUMNS section
+#****************************************************************************
+# @author: boris mifka (boris.mifka@phy.uniri.hr)
+#
+
+#****************************************************************************
+#					SET YEARS, LINKS & OUTPUT COLUMNS:								*
+#****************************************************************************
+
+# SET the start and end YEARS and INCREMENT
+YEAR_s=2021
+YEAR_e=2022
+Y_INCR=1
+
+# SET the base URL for GFS data
+BASE_URL="https://aqs.epa.gov/aqsweb/airdata/"
+
+# SET the directory path where you want to save the downloaded files
+SAVE_DIR=EPA_FILES
+
+# Specify the prefixes of the download and output files 
+#--for WIND
+#PREFIX_IN="hourly_WIND_"
+#PREFIX_OUT="WIND_"
+# Select the columns for output file
+#columns_to_select=("1 2 3 5 9 12 13 14")  
+
+#--for PM10_
+PREFIX_IN="hourly_81102_"  
+PREFIX_OUT="PM10_"
+columns_to_select=("1 2 3 5 6 7 9 12 13 14")   
+
+#******************************************************************************
+
+
+# Remove the directory if exists
+#rm -rf "$SAVE_DIR"
+
+if [ -d "$SAVE_DIR" ]; then
+    echo "The subfolder $SAVE_DIR exists."
+	cd "$SAVE_DIR"
+else
+    echo "The subfolder $SAVE_DIR does not exist...Creating..."
+# Create the local directory if it doesn't exist
+mkdir -p "$SAVE_DIR"
+cd "$SAVE_DIR"
+
+fi
+
+
+# Specify the forecast hours range (e.g., 0 to 1)
+for YEAR in $(seq $YEAR_s $Y_INCR $YEAR_e); do
+    # Construct the URL for the current forecast hour
+	FILE_URL="${BASE_URL}${PREFIX_IN}${YEAR}.zip"
+	input_file="${PREFIX_IN}${YEAR}.csv"
+	
+	# Remove the .zip file with same name if exists
+	if [ -e  "${PREFIX_IN}${YEAR}.zip" ]; then
+	 	rm   "${PREFIX_IN}${YEAR}.zip"
+	 	echo "${PREFIX_IN}${YEAR}.zip removed"
+	fi
+	
+	# Remove the file with same name if exists
+	if [ -e "$PREFIX_OUT${YEAR}.csv" ]; then
+		rm "$PREFIX_OUT${YEAR}.csv"
+		echo "$PREFIX_OUT${YEAR}.csv removed"
+	fi
+	
+	echo Link of the current file: $FILE_URL
+	echo Name of the current file: $input_file
+	echo Name of the output file:  "$PREFIX_OUT${YEAR}.csv"
+	
+
+    # Use wget to download the current file
+    curl -O "$FILE_URL" 
+    unzip "${PREFIX_IN}${YEAR}.zip"
+	
+	# Shift the first argument (input file) out
+	shift
+
+	# Use cut to select specified columns
+	cut -d ',' -f "$(IFS=,; echo "${columns_to_select[*]}")" "$input_file">"${PREFIX_OUT}${YEAR}.csv"
+	
+	# Remove downloaded .zip and original .csv files	
+	rm    "${PREFIX_IN}${YEAR}.zip"
+	rm    "${PREFIX_IN}${YEAR}.csv"
+#--------------------------------------------------------	
+    # Check if the download was successful
+    if [ $? -eq 0 ]; then
+        echo "Download successful. file saved to: $SAVE_DIR"
+    else
+        echo "Error: Download failed for $FILE_URL"
+    fi
+done
+
+cd ../
+
+
