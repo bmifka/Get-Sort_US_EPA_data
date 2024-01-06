@@ -29,7 +29,7 @@ SAVE_DIR=EPA_FILES
 # Select the columns for output file
 #columns_to_select=("1 2 3 5 9 12 13 14")  
 
-#--for PM10_
+#--for scalar parameter
 PREFIX_IN="hourly_81102_"  
 PREFIX_OUT="PM10_"
 columns_to_select=("1 2 3 5 6 7 9 12 13 14")   
