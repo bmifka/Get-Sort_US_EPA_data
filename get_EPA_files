@@ -23,10 +23,11 @@ BASE_URL="https://aqs.epa.gov/aqsweb/airdata/"
 SAVE_DIR=EPA_FILES
 
 # Specify the prefixes of the download and output files 
+# and select the columns for the output file
+
 #--for WIND
 #PREFIX_IN="hourly_WIND_"
 #PREFIX_OUT="WIND_"
-# Select the columns for output file
 #columns_to_select=("1 2 3 5 9 12 13 14")  
 
 #--for scalar parameter
