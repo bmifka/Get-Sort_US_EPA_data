@@ -4,21 +4,21 @@
 This program reads the US-EPA hourly Wind and scalar Variables (e.g. 
 concentrations of pollutants and/or meteo variables) data from yearly files. 
 It extracts the Wind Speed and Wind Direction from Wind files and Variables of 
-choice from the Variable files for specific station and instrument (POC). 
+choice from the Variable files for specific stations and instruments (POC). 
 
 
-User edits the input Meta_File.csv: each row is for new station (or instrument 
+User edits the input Meta_File.csv: each row is for a new station (or instrument 
 at the same station).
 
 INPUT columns in Meta_File.csv are:
     'State Code''County Code' 'Site Number'	
-    'POC WS'	'POC WD' 'POC TEMP'	'POC PM10'	, .....etc (user defined)	
+    'POC WS'	'POC WD' 'POC TEMP'	'POC PM10', .....etc (user defined)	
     'Latitude'	'Longitude'	'Local Site Name'
 
-    The POCs need to be added by user in the Meta_File.csv depending on the
+    The POCs need to be added by the user in the Meta_File.csv depending on the
     choice of variables. 
     
-    In this program, user edits also the section SET OPTIONS: 
+    In this program, the user also edits the section SET OPTIONS: 
        #--input
        year_s            = 2021                 # years of first and last file
        year_e            = 2022                 
@@ -27,14 +27,14 @@ INPUT columns in Meta_File.csv are:
        files_dir         = 'EPA_FILES/'         # set path of EPA files folder
        fname_prefixW     = 'WIND'               # set prefixes for WIND and Vars files
        fname_prefixVars  = np.array(['PM10'])   # it is also used for names of output 
-                                                # variables in output .mat file
+                                                # variables in the output .mat file
        POCs              = ["POC PM10"]         # use names same as you define in
                                                 # Meta_File.csv
        
        Additional meta-data can be found in  aqs_monitors.csv file at
        https://aqs.epa.gov/aqsweb/airdata/download_files.html#Meta
        
-       #--additional arrays for Meta Data to store in otuput .mat file
+       #--additional arrays for Meta Data to store in the output .mat file
        MsiteName   = METAin["Local Site Name"]
        Mlat        = METAin["Latitude"].to_numpy()
        Mlon        = METAin["Longitude"].to_numpy()
@@ -44,16 +44,16 @@ INPUT columns in Meta_File.csv are:
        CUSTOM_MVAR = METAin["Var Name as in Meta_File.csv"]
         
         
-The OUTPUT DATA for specified period is stored in dictionarny and writen in 
-.mat file. The data is Wind Speed, Wind Direction, Variables, and dates in
+The OUTPUT DATA for a specified period is stored in a dictionarny and written in 
+a .mat file. The data is Wind Speed, Wind Direction, Variables, and dates in
 numeric format with reference 0000/01/01 00:00:00. In addition, other meta data
-as station name, latitude and longitude can be added in DATA_out dictionary.
-The variable arrays for each station is in a new row. 
-First row is for first station etc...
+as station name, latitude, and longitude can be added in DATA_out dictionary.
+The variable array for each station is in a new row. 
+The first row is for the first station etc...
 
-Further developement plans:
-    - make option for the data at all time resolutions (no works for hourly data only)
-    - at this moment, there is minimum 2 years (files) of data needed...
+Further development plans:
+    - make an option for the data at all time resolutions (now works for hourly data only)
+    - at this moment, there is a minimum of 2 years (files) of data needed...
 -------------------------------------------------------------------------------
 Created on Wed Jan  3 09:51:35 2024
 @author: boris mifka (boris.mifka@phy.uniri.hr)
