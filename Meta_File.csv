@@ -1,0 +1,3 @@
+State Code,County Code,Site Number,POC WS,POC WD,POC TEMP,POC PM10,POC PM25,Unit WS,Unit WD,Unit TEMP,Unit PM10,Latitude,Longitude,CBSA Name
+1,73,23,1,1,1,4,,Knots,Degrees Compass,Degrees Fahrenheit,Micrograms/cubic meter (25 C),33.553056,-86.815,"Birmingham-Hoover, AL"
+2,90,34,1,1,2,3,,,,,,64.84569,-147.727413,"Fairbanks, AK"
