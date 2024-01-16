@@ -1,0 +1,241 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+State Code,County Code,Site Number,POC WS,POC WD,POC TEMP,POC PM10,Latitude,Longitude,State Name,County Name,City Name
+1.0,73.0,23.0,1.0,1.0,1.0,4.0,33.553056,-86.815,Alabama,Jefferson,Birmingham
+2.0,90.0,34.0,1.0,1.0,1.0,1.0,64.84569,-147.727413,Alaska,Fairbanks North Star ,Fairbanks
+2.0,90.0,34.0,nan,nan,2.0,3.0,64.84569,-147.727413,Alaska,Fairbanks North Star ,Fairbanks
+4.0,13.0,9997.0,1.0,1.0,1.0,3.0,33.503833,-112.095767,Arizona,Maricopa,Phoenix
+4.0,19.0,1018.0,1.0,1.0,1.0,1.0,32.425261,-111.06352,Arizona,Pima,Marana
+4.0,19.0,1030.0,1.0,1.0,1.0,1.0,31.87952,-110.99644,Arizona,Pima,Green Valley
+4.0,19.0,1113.0,1.0,1.0,1.0,1.0,32.251843,-110.965293,Arizona,Pima,Tucson
+5.0,119.0,7.0,1.0,1.0,1.0,1.0,34.756189,-92.281296,Arkansas,Pulaski,North Little Rock
+5.0,119.0,7.0,nan,nan,nan,2.0,34.756189,-92.281296,Arkansas,Pulaski,North Little Rock
+6.0,7.0,8.0,1.0,1.0,2.0,3.0,39.76168,-121.84047,California,Butte,Chico
+6.0,9.0,1.0,2.0,2.0,2.0,3.0,38.20185,-120.680277,California,Calaveras,San Andreas
+6.0,11.0,1002.0,1.0,1.0,2.0,6.0,39.18919,-121.99887,California,Colusa,Colusa
+6.0,17.0,11.0,3.0,3.0,2.0,5.0,38.944979,-119.970609,California,El Dorado,South Lake Tahoe
+6.0,19.0,7.0,1.0,1.0,1.0,1.0,36.705474,-119.741332,California,Fresno,Not in a City
+6.0,19.0,7.0,nan,nan,nan,2.0,36.705474,-119.741332,California,Fresno,Not in a City
+6.0,19.0,11.0,2.0,2.0,2.0,3.0,36.78538,-119.77321,California,Fresno,Fresno
+6.0,19.0,500.0,1.0,1.0,1.0,1.0,36.985119,-119.658339,California,Fresno,Not in a City
+6.0,19.0,5001.0,1.0,1.0,1.0,3.0,36.819449,-119.716433,California,Fresno,Clovis
+6.0,21.0,3.0,2.0,2.0,2.0,3.0,39.53387,-122.190834,California,Glenn,Not in a City
+6.0,25.0,5.0,2.0,2.0,2.0,3.0,32.67618,-115.48307,California,Imperial,Calexico
+6.0,25.0,10.0,1.0,1.0,1.0,1.0,33.379078,-116.015997,California,Imperial,Salton Sea Beach
+6.0,25.0,1003.0,1.0,1.0,1.0,4.0,32.79222,-115.56306,California,Imperial,El Centro
+6.0,25.0,4003.0,1.0,1.0,1.0,3.0,33.0325,-115.62361,California,Imperial,Westmorland
+6.0,25.0,4004.0,1.0,1.0,1.0,3.0,33.213611,-115.54528,California,Imperial,Not in a City
+6.0,27.0,2.0,1.0,1.0,1.0,1.0,37.360684,-118.330783,California,Inyo,Not in a City
+6.0,27.0,2.0,nan,nan,nan,4.0,37.360684,-118.330783,California,Inyo,Not in a City
+6.0,27.0,22.0,1.0,1.0,1.0,2.0,36.326172,-117.95512,California,Inyo,Not in a City
+6.0,27.0,23.0,1.0,1.0,1.0,1.0,36.280597,-118.011661,California,Inyo,Olancha
+6.0,27.0,25.0,1.0,1.0,1.0,2.0,36.366319,-117.897609,California,Inyo,Not in a City
+6.0,27.0,26.0,1.0,1.0,1.0,1.0,36.361932,-118.01068,California,Inyo,Not in a City
+6.0,27.0,28.0,1.0,1.0,1.0,1.0,36.54314,-117.941827,California,Inyo,Not in a City
+6.0,27.0,30.0,1.0,1.0,1.0,1.0,36.458104,-117.851888,California,Inyo,Not in a City
+6.0,27.0,31.0,1.0,1.0,1.0,1.0,36.607215,-118.05473,California,Inyo,Not in a City
+6.0,27.0,1001.0,1.0,1.0,1.0,4.0,36.049402,-117.943927,California,Inyo,Not in a City
+6.0,27.0,1003.0,1.0,1.0,1.0,4.0,36.487823,-117.871036,California,Inyo,Keeler
+6.0,27.0,1003.0,nan,nan,nan,6.0,36.487823,-117.871036,California,Inyo,Keeler
+6.0,27.0,1003.0,nan,nan,nan,7.0,36.487823,-117.871036,California,Inyo,Keeler
+6.0,27.0,1023.0,1.0,1.0,1.0,4.0,37.362137,-118.417478,California,Inyo,Bishop
+6.0,27.0,1028.0,1.0,1.0,1.0,1.0,36.834957,-118.226677,California,Inyo,Independence
+6.0,29.0,14.0,1.0,1.0,2.0,7.0,35.356615,-119.062613,California,Kern,Bakersfield
+6.0,29.0,18.0,1.0,1.0,1.0,1.0,35.642943,-117.715066,California,Kern,Ridgecrest
+6.0,29.0,18.0,nan,2.0,nan,nan,35.642943,-117.715066,California,Kern,Ridgecrest
+6.0,29.0,18.0,2.0,1.0,1.0,1.0,35.642943,-117.715066,California,Kern,Ridgecrest
+6.0,29.0,18.0,nan,2.0,nan,nan,35.642943,-117.715066,California,Kern,Ridgecrest
+6.0,29.0,19.0,1.0,1.0,2.0,2.0,35.046528,-118.162833,California,Kern,Mojave
+6.0,29.0,232.0,2.0,2.0,2.0,3.0,35.438035,-119.016787,California,Kern,Oildale
+6.0,31.0,4.0,1.0,1.0,1.0,8.0,36.102244,-119.56565,California,Kings,Corcoran
+6.0,31.0,500.0,1.0,1.0,1.0,2.0,36.233274,-119.766212,California,Kings,Not in a City
+6.0,31.0,1004.0,1.0,1.0,1.0,3.0,36.31567,-119.643447,California,Kings,Hanford
+6.0,37.0,2.0,1.0,1.0,1.0,2.0,34.1365,-117.92391,California,Los Angeles,Azusa
+6.0,37.0,1103.0,1.0,1.0,1.0,2.0,34.06659,-118.22688,California,Los Angeles,Los Angeles
+6.0,37.0,1103.0,nan,nan,nan,3.0,34.06659,-118.22688,California,Los Angeles,Los Angeles
+6.0,39.0,2010.0,1.0,1.0,1.0,3.0,36.953256,-120.034203,California,Madera,Madera
+6.0,51.0,1.0,1.0,1.0,1.0,5.0,37.64571,-118.96652,California,Mono,Mammoth Lakes
+6.0,51.0,1.0,nan,nan,nan,6.0,37.64571,-118.96652,California,Mono,Mammoth Lakes
+6.0,51.0,5.0,2.0,2.0,2.0,4.0,37.962069,-119.120278,California,Mono,Not in a City
+6.0,51.0,11.0,1.0,1.0,1.0,3.0,38.069711,-118.947738,California,Mono,Not in a City
+6.0,59.0,7.0,1.0,1.0,1.0,1.0,33.83062,-117.93845,California,Orange,Anaheim
+6.0,59.0,7.0,nan,nan,nan,3.0,33.83062,-117.93845,California,Orange,Anaheim
+6.0,61.0,6.0,1.0,1.0,2.0,3.0,38.74643,-121.26498,California,Placer,Roseville
+6.0,65.0,12.0,1.0,1.0,1.0,1.0,33.92086,-116.85841,California,Riverside,Banning
+6.0,65.0,500.0,1.0,1.0,1.0,1.0,33.71969,-116.1897,California,Riverside,Indio
+6.0,65.0,1999.0,1.0,1.0,1.0,1.0,33.56125,-116.153383,California,Riverside,Torres-Martinez I.R.
+6.0,65.0,8001.0,1.0,1.0,1.0,2.0,33.99958,-117.41601,California,Riverside,Rubidoux
+6.0,65.0,8001.0,nan,nan,nan,3.0,33.99958,-117.41601,California,Riverside,Rubidoux
+6.0,65.0,8001.0,nan,nan,nan,4.0,33.99958,-117.41601,California,Riverside,Rubidoux
+6.0,67.0,6.0,1.0,1.0,1.0,1.0,38.613779,-121.368014,California,Sacramento,Arden-Arcade
+6.0,67.0,6.0,nan,nan,nan,2.0,38.613779,-121.368014,California,Sacramento,Arden-Arcade
+6.0,67.0,10.0,1.0,1.0,2.0,4.0,38.56844,-121.49311,California,Sacramento,Sacramento
+6.0,71.0,5.0,1.0,1.0,1.0,1.0,34.2431,-117.27235,California,San Bernardino,Crestline
+6.0,73.0,1.0,1.0,1.0,1.0,2.0,32.631242,-117.059088,California,San Diego,Chula Vista
+6.0,73.0,1014.0,1.0,1.0,1.0,1.0,32.57816,-116.92135,California,San Diego,Otay Mesa
+6.0,73.0,1014.0,nan,nan,nan,2.0,32.57816,-116.92135,California,San Diego,Otay Mesa
+6.0,73.0,1022.0,1.0,1.0,1.0,1.0,32.789565,-116.944308,California,San Diego,El Cajon
+6.0,77.0,2010.0,1.0,1.0,1.0,3.0,37.793392,-121.247874,California,San Joaquin,Manteca
+6.0,77.0,3005.0,1.0,1.0,1.0,3.0,37.682635,-121.442495,California,San Joaquin,Tracy
+6.0,79.0,5.0,1.0,1.0,2.0,2.0,35.614668,-120.656912,California,San Luis Obispo,El Paso de Robles (corporate name for Paso Robles)
+6.0,79.0,2004.0,1.0,1.0,1.0,3.0,35.02083,-120.56388,California,San Luis Obispo,Nipomo
+6.0,79.0,4002.0,1.0,1.0,1.0,2.0,35.03146,-120.50103,California,San Luis Obispo,Nipomo
+6.0,83.0,11.0,1.0,1.0,2.0,3.0,34.427775,-119.691218,California,Santa Barbara,Santa Barbara
+6.0,83.0,1025.0,1.0,1.0,1.0,3.0,34.48974,-120.04692,California,Santa Barbara,Capitan
+6.0,83.0,2004.0,1.0,1.0,1.0,2.0,34.63782,-120.4575,California,Santa Barbara,Lompoc
+6.0,83.0,2011.0,1.0,1.0,1.0,1.0,34.44551,-119.8284,California,Santa Barbara,Goleta
+6.0,85.0,5.0,1.0,1.0,1.0,1.0,37.348497,-121.894898,California,Santa Clara,San Jose
+6.0,99.0,5.0,1.0,1.0,2.0,7.0,37.642165,-120.994212,California,Stanislaus,Modesto
+6.0,99.0,6.0,1.0,1.0,1.0,1.0,37.488317,-120.836008,California,Stanislaus,Turlock
+6.0,101.0,3.0,1.0,1.0,2.0,3.0,39.138773,-121.618549,California,Sutter,Yuba City
+6.0,111.0,2002.0,1.0,1.0,1.0,3.0,34.276316,-118.683685,California,Ventura,Simi Valley
+6.0,111.0,3001.0,1.0,1.0,1.0,3.0,34.25239,-119.143182,California,Ventura,Not in a City
+8.0,1.0,3001.0,1.0,1.0,1.0,2.0,39.838119,-104.94984,Colorado,Adams,Welby
+8.0,1.0,3001.0,nan,nan,nan,3.0,39.838119,-104.94984,Colorado,Adams,Welby
+8.0,31.0,2.0,1.0,1.0,1.0,1.0,39.751184,-104.987625,Colorado,Denver,Denver
+8.0,31.0,2.0,nan,nan,nan,2.0,39.751184,-104.987625,Colorado,Denver,Denver
+8.0,31.0,26.0,1.0,1.0,1.0,1.0,39.77949,-105.00518,Colorado,Denver,Denver
+8.0,31.0,26.0,nan,nan,2.0,2.0,39.77949,-105.00518,Colorado,Denver,Denver
+8.0,45.0,19.0,1.0,1.0,1.0,2.0,39.43806,-108.02611,Colorado,Garfield,Battlement Mesa
+9.0,1.0,1123.0,1.0,1.0,1.0,3.0,41.399167,-73.443056,Connecticut,Fairfield,Danbury
+9.0,3.0,25.0,1.0,1.0,1.0,3.0,41.771444,-72.679923,Connecticut,Hartford,Hartford
+9.0,3.0,1003.0,1.0,1.0,1.0,3.0,41.784722,-72.631667,Connecticut,Hartford,East Hartford
+9.0,5.0,5.0,1.0,1.0,1.0,3.0,41.821342,-73.297257,Connecticut,Litchfield,Cornwall
+9.0,9.0,27.0,1.0,1.0,1.0,1.0,41.3014,-72.902871,Connecticut,New Haven,New Haven
+9.0,9.0,27.0,nan,nan,nan,2.0,41.3014,-72.902871,Connecticut,New Haven,New Haven
+9.0,9.0,27.0,nan,nan,nan,3.0,41.3014,-72.902871,Connecticut,New Haven,New Haven
+9.0,9.0,27.0,nan,nan,nan,4.0,41.3014,-72.902871,Connecticut,New Haven,New Haven
+9.0,9.0,2123.0,1.0,1.0,1.0,3.0,41.550556,-73.043611,Connecticut,New Haven,Waterbury
+11.0,1.0,43.0,2.0,2.0,2.0,4.0,38.921847,-77.013178,District Of Columbia,District of Columbia,Washington
+13.0,89.0,2.0,1.0,1.0,1.0,1.0,33.6878,-84.2905,Georgia,DeKalb,Not in a City
+13.0,245.0,91.0,1.0,1.0,1.0,4.0,33.4339,-82.0224,Georgia,Richmond,Augusta
+15.0,3.0,10.0,1.0,1.0,1.0,3.0,21.323745,-158.088613,Hawaii,Honolulu,Not in a City
+16.0,5.0,15.0,1.0,1.0,1.0,3.0,42.876725,-112.460347,Idaho,Bannock,Pocatello
+16.0,17.0,3.0,1.0,1.0,1.0,3.0,48.292141,-116.556656,Idaho,Bonner,Sandpoint
+16.0,79.0,17.0,1.0,1.0,1.0,3.0,47.536389,-116.236667,Idaho,Shoshone,Pinehurst (Pine Creek)
+17.0,31.0,4201.0,1.0,1.0,1.0,1.0,42.139996,-87.799227,Illinois,Cook,Northbrook
+17.0,31.0,4201.0,nan,nan,nan,9.0,42.139996,-87.799227,Illinois,Cook,Northbrook
+18.0,89.0,22.0,1.0,1.0,1.0,2.0,41.606662,-87.304943,Indiana,Lake,Gary
+18.0,89.0,34.0,1.0,1.0,1.0,1.0,41.653501,-87.435561,Indiana,Lake,East Chicago
+18.0,97.0,78.0,1.0,1.0,1.0,1.0,39.810833,-86.114444,Indiana,Marion,Indianapolis (Remainder)
+18.0,97.0,78.0,nan,nan,nan,4.0,39.810833,-86.114444,Indiana,Marion,Indianapolis (Remainder)
+19.0,113.0,40.0,1.0,1.0,1.0,1.0,41.97677,-91.68766,Iowa,Linn,Cedar Rapids
+19.0,113.0,40.0,nan,nan,nan,2.0,41.97677,-91.68766,Iowa,Linn,Cedar Rapids
+19.0,153.0,30.0,1.0,1.0,1.0,1.0,41.603159,-93.643118,Iowa,Polk,Des Moines
+19.0,153.0,30.0,nan,nan,nan,2.0,41.603159,-93.643118,Iowa,Polk,Des Moines
+19.0,163.0,15.0,1.0,1.0,1.0,1.0,41.530011,-90.587611,Iowa,Scott,Davenport
+19.0,163.0,15.0,nan,nan,nan,2.0,41.530011,-90.587611,Iowa,Scott,Davenport
+19.0,163.0,17.0,1.0,1.0,1.0,2.0,41.467236,-90.688451,Iowa,Scott,Buffalo
+19.0,163.0,17.0,nan,nan,nan,3.0,41.467236,-90.688451,Iowa,Scott,Buffalo
+19.0,163.0,17.0,nan,nan,nan,5.0,41.467236,-90.688451,Iowa,Scott,Buffalo
+19.0,177.0,6.0,1.0,1.0,1.0,1.0,40.695078,-92.006318,Iowa,Van Buren,Not in a City
+20.0,209.0,21.0,2.0,2.0,2.0,3.0,39.117219,-94.635605,Kansas,Wyandotte,Kansas City
+21.0,43.0,500.0,1.0,1.0,1.0,1.0,38.23887,-82.9881,Kentucky,Carter,Not in a City
+21.0,43.0,500.0,nan,nan,nan,2.0,38.23887,-82.9881,Kentucky,Carter,Not in a City
+21.0,111.0,67.0,1.0,1.0,1.0,3.0,38.22876,-85.65452,Kentucky,Jefferson,Louisville
+21.0,111.0,1041.0,1.0,1.0,1.0,3.0,38.23158,-85.82678,Kentucky,Jefferson,Louisville
+22.0,33.0,9.0,1.0,1.0,1.0,1.0,30.461981,-91.179219,Louisiana,East Baton Rouge,Baton Rouge
+23.0,9.0,103.0,1.0,1.0,1.0,3.0,44.37705,-68.2609,Maine,Hancock,Not in a City
+23.0,9.0,103.0,nan,nan,nan,4.0,44.37705,-68.2609,Maine,Hancock,Not in a City
+24.0,3.0,1003.0,2.0,1.0,1.0,1.0,39.169533,-76.627933,Maryland,Anne Arundel,Glen Burnie
+24.0,3.0,1003.0,nan,nan,nan,2.0,39.169533,-76.627933,Maryland,Anne Arundel,Glen Burnie
+24.0,33.0,30.0,1.0,1.0,1.0,1.0,39.055277,-76.878333,Maryland,Prince George's,Beltsville
+25.0,25.0,42.0,1.0,1.0,1.0,4.0,42.3295,-71.0826,Massachusetts,Suffolk,Boston
+25.0,25.0,42.0,nan,nan,nan,5.0,42.3295,-71.0826,Massachusetts,Suffolk,Boston
+26.0,81.0,20.0,1.0,1.0,1.0,1.0,42.984173,-85.671339,Michigan,Kent,Grand Rapids
+26.0,139.0,5.0,1.0,1.0,1.0,1.0,42.894451,-85.852734,Michigan,Ottawa,Jenison
+26.0,163.0,1.0,1.0,1.0,1.0,1.0,42.22862,-83.2082,Michigan,Wayne,Allen Park
+26.0,163.0,15.0,1.0,1.0,1.0,1.0,42.302786,-83.10653,Michigan,Wayne,Detroit
+26.0,163.0,33.0,1.0,1.0,1.0,1.0,42.306674,-83.148754,Michigan,Wayne,Dearborn
+26.0,163.0,33.0,nan,nan,nan,3.0,42.306674,-83.148754,Michigan,Wayne,Dearborn
+26.0,163.0,33.0,nan,nan,nan,9.0,42.306674,-83.148754,Michigan,Wayne,Dearborn
+26.0,163.0,1008.0,1.0,1.0,1.0,3.0,42.281869,-83.151415,Michigan,Wayne,Detroit
+28.0,49.0,20.0,1.0,1.0,1.0,1.0,32.329111,-90.182722,Mississippi,Hinds,Jackson
+29.0,21.0,5.0,1.0,1.0,1.0,3.0,39.741694,-94.858584,Missouri,Buchanan,St. Joseph
+29.0,21.0,5.0,nan,nan,2.0,nan,39.741694,-94.858584,Missouri,Buchanan,St. Joseph
+29.0,99.0,19.0,1.0,1.0,1.0,3.0,38.448672,-90.395904,Missouri,Jefferson,Arnold
+29.0,510.0,85.0,1.0,1.0,1.0,6.0,38.656429,-90.198348,Missouri,St. Louis City,St. Louis
+29.0,510.0,93.0,1.0,1.0,1.0,6.0,38.656479,-90.189868,Missouri,St. Louis City,St. Louis
+31.0,55.0,19.0,1.0,1.0,1.0,1.0,41.247486,-95.973142,Nebraska,Douglas,Omaha
+32.0,3.0,24.0,1.0,1.0,2.0,1.0,36.815897,-114.050347,Nevada,Clark,Mesquite
+32.0,3.0,43.0,1.0,1.0,2.0,1.0,36.106389,-115.253333,Nevada,Clark,Spring Valley
+32.0,3.0,44.0,1.0,1.0,2.0,1.0,36.004733,-115.268517,Nevada,Clark,Enterprise
+32.0,3.0,71.0,1.0,1.0,2.0,1.0,36.16976,-115.263038,Nevada,Clark,Las Vegas
+32.0,3.0,73.0,1.0,1.0,2.0,1.0,36.173415,-115.332728,Nevada,Clark,Las Vegas
+32.0,3.0,75.0,1.0,1.0,2.0,1.0,36.270592,-115.238282,Nevada,Clark,Las Vegas
+32.0,3.0,298.0,1.0,1.0,2.0,1.0,36.048705,-115.052942,Nevada,Clark,Henderson
+32.0,3.0,299.0,1.0,1.0,2.0,1.0,35.987908,-115.148885,Nevada,Clark,Henderson
+32.0,3.0,540.0,1.0,1.0,2.0,1.0,36.141875,-115.078742,Nevada,Clark,Sunrise Manor
+32.0,3.0,561.0,1.0,1.0,2.0,1.0,36.163962,-115.11393,Nevada,Clark,Las Vegas
+32.0,3.0,602.0,1.0,1.0,2.0,1.0,35.969848,-114.835007,Nevada,Clark,Boulder City
+32.0,3.0,1019.0,1.0,1.0,2.0,1.0,35.785665,-115.357087,Nevada,Clark,Jean
+32.0,3.0,1502.0,1.0,1.0,2.0,1.0,36.174365,-115.13977,Nevada,Clark,Las Vegas
+32.0,3.0,2003.0,1.0,1.0,2.0,1.0,36.214465,-115.091437,Nevada,Clark,Not in a City
+32.0,31.0,31.0,1.0,1.0,1.0,2.0,39.521933,-119.7954,Nevada,Washoe,Reno
+33.0,15.0,14.0,1.0,1.0,1.0,6.0,43.075371,-70.748017,New Hampshire,Rockingham,Portsmouth
+33.0,15.0,18.0,1.0,1.0,1.0,6.0,42.862531,-71.38014,New Hampshire,Rockingham,Londonderry
+35.0,1.0,23.0,1.0,1.0,1.0,1.0,35.1343,-106.5852,New Mexico,Bernalillo,Albuquerque
+35.0,1.0,23.0,nan,nan,2.0,nan,35.1343,-106.5852,New Mexico,Bernalillo,Albuquerque
+37.0,119.0,41.0,1.0,1.0,1.0,4.0,35.2401,-80.785683,North Carolina,Mecklenburg,Charlotte
+37.0,183.0,14.0,1.0,1.0,1.0,5.0,35.856111,-78.574167,North Carolina,Wake,Raleigh
+38.0,13.0,4.0,1.0,1.0,1.0,3.0,48.64193,-102.4018,North Dakota,Burke,Not in a City
+38.0,15.0,3.0,1.0,1.0,1.0,3.0,46.825425,-100.76821,North Dakota,Burleigh,Bismarck
+38.0,25.0,4.0,1.0,1.0,1.0,3.0,47.342423,-102.645864,North Dakota,Dunn,Dunn Center
+39.0,35.0,60.0,1.0,1.0,1.0,3.0,41.492117,-81.678449,Ohio,Cuyahoga,Cleveland
+39.0,61.0,40.0,1.0,1.0,1.0,9.0,39.12886,-84.50404,Ohio,Hamilton,Cincinnati
+39.0,135.0,1001.0,1.0,1.0,1.0,3.0,39.83562,-84.720524,Ohio,Preble,New Paris
+40.0,1.0,9009.0,1.0,1.0,1.0,3.0,35.750735,-94.669697,Oklahoma,Adair,Cherry Tree
+40.0,1.0,9009.0,nan,nan,2.0,nan,35.750735,-94.669697,Oklahoma,Adair,Cherry Tree
+40.0,109.0,1037.0,2.0,2.0,2.0,3.0,35.614131,-97.475083,Oklahoma,Oklahoma,Oklahoma City
+40.0,143.0,1127.0,2.0,2.0,2.0,1.0,36.204902,-95.976537,Oklahoma,Tulsa,Tulsa
+40.0,143.0,1127.0,nan,nan,nan,3.0,36.204902,-95.976537,Oklahoma,Tulsa,Tulsa
+41.0,37.0,1.0,1.0,1.0,1.0,1.0,42.189215,-120.353969,Oregon,Lake,Lakeview
+41.0,51.0,80.0,1.0,1.0,1.0,1.0,45.496641,-122.602877,Oregon,Multnomah,Portland
+41.0,51.0,80.0,nan,nan,nan,2.0,45.496641,-122.602877,Oregon,Multnomah,Portland
+41.0,61.0,123.0,1.0,1.0,1.0,7.0,45.3235,-118.0778,Oregon,Union,La Grande
+44.0,7.0,22.0,1.0,1.0,1.0,1.0,41.807469,-71.412968,Rhode Island,Providence,Providence
+44.0,7.0,22.0,nan,nan,nan,2.0,41.807469,-71.412968,Rhode Island,Providence,Providence
+44.0,7.0,1010.0,1.0,1.0,1.0,2.0,41.841039,-71.36097,Rhode Island,Providence,East Providence
+45.0,79.0,7.0,1.0,1.0,1.0,3.0,34.093959,-80.962304,South Carolina,Richland,Dentsville (Dents)
+45.0,79.0,7.0,nan,nan,nan,4.0,34.093959,-80.962304,South Carolina,Richland,Dentsville (Dents)
+46.0,33.0,132.0,1.0,1.0,1.0,3.0,43.55764,-103.48386,South Dakota,Custer,Not in a City
+46.0,93.0,1.0,3.0,3.0,3.0,3.0,44.155636,-103.315765,South Dakota,Meade,Not in a City
+46.0,99.0,9.0,3.0,3.0,3.0,3.0,43.59901,-96.78331,South Dakota,Minnehaha,Sioux Falls
+47.0,157.0,75.0,1.0,1.0,1.0,3.0,35.151699,-89.850249,Tennessee,Shelby,Memphis
+48.0,29.0,1087.0,1.0,1.0,1.0,1.0,29.635,-98.4177,Texas,Bexar,Not in a City
+48.0,113.0,50.0,1.0,1.0,1.0,1.0,32.774262,-96.797686,Texas,Dallas,Dallas
+48.0,113.0,50.0,nan,nan,nan,2.0,32.774262,-96.797686,Texas,Dallas,Dallas
+48.0,141.0,29.0,2.0,2.0,2.0,1.0,31.785769,-106.323578,Texas,El Paso,El Paso
+48.0,141.0,57.0,1.0,1.0,1.0,1.0,31.6675,-106.288,Texas,El Paso,El Paso
+48.0,141.0,57.0,nan,nan,nan,2.0,31.6675,-106.288,Texas,El Paso,El Paso
+48.0,141.0,693.0,1.0,1.0,1.0,1.0,31.81337,-106.46452,Texas,El Paso,El Paso
+48.0,201.0,46.0,2.0,2.0,2.0,2.0,29.828086,-95.284096,Texas,Harris,Houston
+48.0,201.0,1035.0,1.0,1.0,1.0,1.0,29.733726,-95.257593,Texas,Harris,Houston
+48.0,201.0,1035.0,nan,nan,nan,2.0,29.733726,-95.257593,Texas,Harris,Houston
+48.0,215.0,43.0,1.0,1.0,1.0,2.0,26.22621,-98.291069,Texas,Hidalgo,Mission
+48.0,355.0,34.0,1.0,1.0,1.0,1.0,27.811817,-97.465703,Texas,Nueces,Corpus Christi
+48.0,453.0,20.0,1.0,1.0,1.0,1.0,30.483163,-97.875084,Texas,Travis,Leander
+48.0,453.0,21.0,1.0,1.0,1.0,1.0,30.263204,-97.712891,Texas,Travis,Austin
+48.0,479.0,17.0,1.0,1.0,1.0,1.0,27.501826,-99.502984,Texas,Webb,Laredo
+51.0,87.0,14.0,1.0,1.0,1.0,1.0,37.55652,-77.40027,Virginia,Henrico,East Highland Park
+51.0,87.0,14.0,nan,nan,nan,3.0,37.55652,-77.40027,Virginia,Henrico,East Highland Park
+53.0,5.0,2.0,1.0,1.0,1.0,5.0,46.21835,-119.204153,Washington,Benton,Kennewick
+53.0,33.0,80.0,1.0,1.0,1.0,2.0,47.568236,-122.308628,Washington,King,Seattle
+53.0,65.0,5.0,1.0,1.0,1.0,5.0,48.544448,-117.903425,Washington,Stevens,Colville
+53.0,71.0,6.0,1.0,1.0,1.0,5.0,46.199901,-119.008329,Washington,Walla Walla,Burbank
+55.0,27.0,1.0,1.0,1.0,1.0,1.0,43.46611,-88.62111,Wisconsin,Dodge,Kekoskee
+55.0,27.0,1.0,nan,nan,nan,2.0,43.46611,-88.62111,Wisconsin,Dodge,Kekoskee
+55.0,27.0,1.0,nan,nan,nan,3.0,43.46611,-88.62111,Wisconsin,Dodge,Kekoskee
+55.0,79.0,56.0,1.0,1.0,1.0,3.0,42.93257,-87.93434,Wisconsin,Milwaukee,Milwaukee
+55.0,111.0,7.0,1.0,1.0,1.0,3.0,43.4351,-89.67979,Wisconsin,Sauk,Not in a City
+55.0,133.0,27.0,1.0,1.0,1.0,3.0,43.020075,-88.21507,Wisconsin,Waukesha,Waukesha
+56.0,1.0,11.0,1.0,1.0,1.0,3.0,41.32417,-105.61489,Wyoming,Albany,Laramie
+56.0,13.0,4.0,1.0,1.0,1.0,3.0,43.02421,-108.3637,Wyoming,Fremont,Riverton
+56.0,21.0,100.0,1.0,1.0,1.0,3.0,41.182227,-104.778334,Wyoming,Laramie,Cheyenne
+56.0,21.0,100.0,nan,nan,3.0,nan,41.182227,-104.778334,Wyoming,Laramie,Cheyenne
+56.0,23.0,4.0,1.0,1.0,1.0,3.0,41.783083,-110.53788,Wyoming,Lincoln,Diamondville
+56.0,35.0,99.0,1.0,1.0,1.0,1.0,42.719,-109.753,Wyoming,Sublette,Not in a City
+56.0,35.0,99.0,nan,nan,3.0,nan,42.719,-109.753,Wyoming,Sublette,Not in a City
+56.0,37.0,200.0,1.0,1.0,1.0,3.0,41.677667,-108.024835,Wyoming,Sweetwater,Not in a City
+56.0,37.0,200.0,nan,nan,3.0,nan,41.677667,-108.024835,Wyoming,Sweetwater,Not in a City
+56.0,37.0,300.0,1.0,1.0,1.0,1.0,41.750556,-109.788333,Wyoming,Sweetwater,Not in a City
+56.0,37.0,300.0,nan,nan,3.0,nan,41.750556,-109.788333,Wyoming,Sweetwater,Not in a City
