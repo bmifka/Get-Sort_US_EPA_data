@@ -121,8 +121,8 @@ def Extract_EPA_Wind(years,ID_stat,files_dir,fname_prefix,POC_WS,POC_WD):
     
     
     #--initialize the output list with full data_range at each station   
-    listsWSOut  = [[-999.9] * L for _ in range(NoYears)]
-    listsWDOut  = [[-999.9] * L for _ in range(NoYears)]
+    listsWSOut  = [[-999.9] * L for _ in range(NoStats)]
+    listsWDOut  = [[-999.9] * L for _ in range(NoStats)]
     
     #--and append the variable data, otherwise leave -999.9
     for j in range(NoStats):
@@ -221,7 +221,7 @@ def Extract_EPA_Variable(years,ID_stat,fname_dir,fname_prefix,POC):
     
     
     #--initialize the output list with full data_range at each station   
-    listsVarOut  = [[-999.9] * L for _ in range(NoYears)]
+    listsVarOut  = [[-999.9] * L for _ in range(NoStats)]
     
     #--and append the variable data, otherwise leave -999.9
     for j in range(NoStats):
